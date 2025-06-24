@@ -1,6 +1,16 @@
 ## Namaste React Course by Akshay Saini
 # _Chapter 01 - Inception_
 
+## Theory:
+  - What is Emmet ?
+  - Different between a Library and Framework ?
+  - What is CDN ? Why do We Use it ?
+  - Why is React Known as React ?
+  - What is Crossorigin in Script Tag ?
+  - What is Different React and ReactDOM ?
+  - What is Different Between React.development.js And React.Production.js file Via CDN ?
+  - What is async and defer ? See My Youtube Video.
+
 
 ## Coding -
 - Set up all the `tools in your laptop`
@@ -23,3 +33,7 @@
 ## References:
 - https://react.dev/reference/react/createElement
 - https://www.youtube.com/watch?v=IrHmpdORLu8
+
+<!-- =============================== End ===================================== -->
+
+# _Chapter 02 - Igniting Our App_
