@@ -1,0 +1,37 @@
+{
+  "name": "namaste_course",
+  "version": "1.0.0",
+  "description": "\"React Full Course\"",
+  
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abu9905/Namaste_React_Course.git"
+  },
+  "keywords": [
+    "html",
+    "tailwin",
+    "JavaScript",
+    "React"
+  ],
+  "author": "Abu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abu9905/Namaste_React_Course/issues"
+  },
+  "homepage": "https://github.com/Abu9905/Namaste_React_Course#readme",
+  "devDependencies": {
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "browserList": [
+     "last 2 chrome version",
+     "last 2 firefox version"
+  ]
+}
