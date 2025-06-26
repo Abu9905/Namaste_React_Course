@@ -1,34 +1,28 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
+import ReactDOM from "react-dom/client";  
 
-const heading = React.createElement(
-  "h1",
-  {
-    id: "title",
-    style: {
-      background:"red",
-    },
-    className:"title"
-  },
-  "heading"
-);
-const heading1 = React.createElement(
-  "h1",
-  {
-    id: "title",
-  },
-  "heading1"
-);
+  const Title = ()=>( 
+     <h1 id ="heading" className="myHeading">
+        Namaste React using JSX
+      </h1>
+  )
 
-const container = React.createElement(
-  "div",
-  {
-    id: "container",
-  },
-  [heading, heading1]
-);
 
-// create root using createRoot
-const root = ReactDOM.createRoot(document.getElementById("root"));
-// passing react element inside root
-root.render(container);
+  // React functional Component
+  const HeadingComponent = ()=>{
+    return(
+      <div id="container">
+        <Title/>
+        <h1>Hello World</h1>
+      </div>
+    )
+  }
+
+  // const HeadingComponent2 = ()=> <h1>Hello World</h1>
+    
+  
+
+
+  const root = ReactDOM.createRoot(document.getElementById("root"))
+
+  root.render(<HeadingComponent/>)
